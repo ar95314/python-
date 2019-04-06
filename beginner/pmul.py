@@ -1,15 +1,15 @@
 def main():
 
- def multiple(m, n):
+ def multiple(m, q):
 
    
-    a = range(n, (m * n)+1, n)
+    a = range(n, (m * q)+1, q)
 
     print (*a)
 
 
     m = 5
-    n = input("")
-    multiple(m, n)
+    q = input("")
+    multiple(m, q)
 if __name__ == '__main__':
     main()
